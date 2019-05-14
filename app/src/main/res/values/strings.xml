@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nikvay App</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="loading" >Loading Please Wait…</string>
+</resources>

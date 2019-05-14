@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "896873853652",
+    "firebase_url": "https://dailywork-f45c1.firebaseio.com",
+    "project_id": "dailywork-f45c1",
+    "storage_bucket": "dailywork-f45c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896873853652:android:996fa468e6e6b2ba",
+        "android_client_info": {
+          "package_name": "com.nikvay.daily_work"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896873853652-8g82019v4df5vu724c7rcd4uj1e3tgin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nikvay.daily_work",
+            "certificate_hash": "49d2e0dacd316f7c56c60cabb0321ab565a26ab2"
+          }
+        },
+        {
+          "client_id": "896873853652-p98et3lj673kt991bt35r3tetjhq778t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFQgWiZS5LaUaSbSNkoI_DrTsjwSN3yxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896873853652-p98et3lj673kt991bt35r3tetjhq778t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

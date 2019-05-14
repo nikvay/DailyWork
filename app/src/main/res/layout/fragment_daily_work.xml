@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_spinner"
+        android:layout_margin="5dp"
+        android:spinnerMode="dropdown"
+        android:id="@+id/spinner_filter_daily_work"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_daily_work"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/spinner_filter_daily_work"
+        android:layout_marginTop="7dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_add_daily_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/ic_vector_plus"
+        app:borderWidth="0dp"
+        app:elevation="3dp"
+        app:fabSize="mini" />
+
+    <ImageView
+        android:id="@+id/iv_empty_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/app_empty_list"
+        android:visibility="gone" />
+
+</RelativeLayout>

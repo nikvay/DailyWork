@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF9100</color>
+    <color name="colorPrimaryDark">#B3A50C</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="app_color">#F5E437</color>
+    <color name="app_toolBar_color">#F5E437</color>
+
+    <color name="txt_color_white">#FFF</color>
+    <color name="txt_color_black">#000</color>
+    <color name="txt_color_orange">#FF9100</color>
+    <color name="txt_color_green">#81F71E</color>
+    <color name="txt_date_color_green">#FA1F1F</color>
+    <color name="txt_color_red">#FA1F1F</color>
+
+
+
+</resources>
